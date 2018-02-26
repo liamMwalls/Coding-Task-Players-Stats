@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Players Stats</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      
+    <div class="c-player" id="player">
+      <div class="c-player__select-wrapper">
+        <select class="c-player__select" id="playerSelect">
+          <option value="" disabled selected>Select a player...</option>
+        </select>
+      </div>
+      <div class="c-player__image-wrapper">
+        <div class="c-player__image">
+          <img src="" id="playerImage"/>
+        </div>
+        <div class="c-player__team-logo-wrapper">
+          <div class="c-player__team-logo"></div>
+        </div>
+      </div>
+
+      <div class="c-player__info">
+        <h2 class="c-player__info-heading c-player__info-heading--name" id="playerName"></h2>
+        <h4 class="c-player__info-heading c-player__info-heading--position" id="playerPosition"></h4>
+        <div class="c-player__info-stat-wrapper">
+          <div class="c-player__info-stat"><p>Appearances<span id="appearanceValue"></span></p></div>
+          <div class="c-player__info-stat"><p>Goals<span id="goalsValue"></span></p></div>
+          <div class="c-player__info-stat"><p>Assists<span id="assistsValue"></span></p></div>
+          <div class="c-player__info-stat"><p>Goals per match<span id="goalsPMValue"></span></p></div>
+          <div class="c-player__info-stat"><p>Passes per minute<span id="passesPMValue"></span></p></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+
+    </footer>
+
+   <!-- Main Js -->
+   <script src="/js/src/main.js"></script>
+
+
+  </body>
+</html>
