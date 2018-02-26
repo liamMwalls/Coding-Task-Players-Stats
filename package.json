@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^3.9.1",
-    "sass": "^1.0.0-beta.5.2"
+    "gulp-sass": "^2.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
