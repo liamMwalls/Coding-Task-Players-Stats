@@ -378,12 +378,14 @@ body {
   background: #eaeaea;
   background-image: url(../img/chevron-icon.png);
   background-repeat: no-repeat;
-  background-position: calc(100% - 10px) 6px;
+  background-position: calc(100% - 10px) 10px;
   background-size: 26px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   cursor: pointer; }
+  .c-player__select::-ms-expand {
+    display: none; }
 
 .c-player__info {
   background: #e90052;
