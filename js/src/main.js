@@ -9,9 +9,6 @@ request.onload = function() {
     data = JSON.parse(request.responseText),
 	playersData = data.players;
 
-    console.log(playersData)
-    console.log(playersData.length)
-
     //looping through players adding options to select
     for(var i=0; i < playersData.length; i++){
     	playerOption = document.createElement('option');
